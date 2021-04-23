@@ -1,0 +1,46 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+  <link href="./css/styles.css" type="text/css" rel="stylesheet">
+      <script type="text/javascript" src="./js/test.js"></script>
+      <script type="text/javascript" src="./js/CSInterface.js"></script>
+      <script type="text/javascript" src="./js/Vulcan.js"></script>
+      <script type="text/javascript" src="./js/AgoraLib.js"></script>
+  </head>
+    
+  <body style="background-color: #535353; text-align: center;" >
+  <span style="font-family: '微软雅黑'; font-style: normal; font-weight: normal; font-size: 16pt; color: white"> OCR识别1.0 </span>
+    <br>
+    <br>
+<dd>
+ 
+  <br>
+<select id="ocrType" class="normal-select">
+<option value="normal">通用文字识别</option>
+<option value="high">通用文字识别(高精度)</option>
+<option value="pos">通用文字识别(位置信息)</option>
+<option value="high-pos">通用文字识别(高精度位置信息)</option>
+<option value="qrcode">二维码识别</option>
+</select>
+<br>
+<br>
+
+<dd id="mySelection" class="pR5">
+<label><input value="0" class="moveY2" type="radio" name="btnBg" id="check0" >当前选区</label>
+<label><input value="1" class="moveY2" type="radio" name="btnBg" id="check1">当前图层</label>
+<label><input value="2" class="moveY2" type="radio" name="btnBg" id="check2" checked="checked">所有图层</label>
+
+</dd>
+
+</dd>
+    <br>
+    <span >
+      <span style="font-family: 'Castellar'; font-style: normal; font-weight: normal; font-size: 34pt;">   </span>
+    </span>
+  <br>
+
+  <input type="button" value="开始识别" id="Start" onclick="Ocr()">
+
+  </body>
+</html>
