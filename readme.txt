@@ -16,4 +16,4 @@ SECRET_KEY = v5XHtqKXEm0p6ehPZrXIXrftDvocyv1m
 
 点击开始识别，识别的文字在PS中生成图层名称，同时在桌面生成OCR.txt文档。
 OCR插件仅支持CC2018以上。CC2018,2019,2020,2021版本测试通过。
-![image](https://github.com/greless/psOCR/blob/cc9c182477876f99f3d02bd5a01bd27d7886bdc4/ocr.gif)
+![image](https://github.com/greless/psOCR/blob/cc9c182477876f99f3d02bd5a01bd27d7886bdc4/ocr.gif?raw=true)
